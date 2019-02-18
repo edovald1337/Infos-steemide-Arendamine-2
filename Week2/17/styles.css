@@ -1,0 +1,20 @@
+﻿p { 
+    font-family: Arial, Helvettica, Sans-serif; 
+}
+
+@font-face {
+    font-family: 'GoodDog Plain';
+    src: url('GoodDogPlain.eot');
+    src: url('GoodDogPlain.eot?#iefix') format('embedded-opentype'),
+         url('GoodDogPlain.woff2') format('woff2'),
+         url('GoodDogPlain.woff') format('woff'),
+         url('GoodDogPlain.ttf') format('truetype'),
+         url('GoodDogPlain.svg#GoodDogPlain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1.heading {
+    font: 60px/68px 'GoodDogPlain', Arial, sans-serif;letter-spacing: 0;
+
+}
