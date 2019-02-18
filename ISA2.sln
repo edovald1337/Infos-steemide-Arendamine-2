@@ -164,6 +164,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMethod", "Week01\Simp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Week01\Variables\Variables.csproj", "{F4FD23D8-1CB4-4E44-821A-E78A6CF4913A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week03", "Week03", "{CA2E97F6-6BFA-4C0E-B897-7E1E825C59C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
