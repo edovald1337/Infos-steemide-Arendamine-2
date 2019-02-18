@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{48538E4E-9AEA-4244-BC34-380CE2F888A9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week02", "Week02", "{48538E4E-9AEA-4244-BC34-380CE2F888A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{0FBE3FD2-8F3D-4698-8A9F-177D47A404C6}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{0FBE3FD2-8F3D-
 		Week2\02\www-diagram.gif = Week2\02\www-diagram.gif
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{9EFC9D30-E674-4D1A-B3B1-2F0B08C797C8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week01", "Week01", "{9EFC9D30-E674-4D1A-B3B1-2F0B08C797C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWorld", "HelloWorld", "{88ECA697-5526-4244-9B5F-14DFA01AAA4F}"
 EndProject
