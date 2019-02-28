@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
+using Core;
+using Facade;
+
 
 
 
@@ -11,20 +13,20 @@ namespace WebApplication1.Controllers
 {
     public class TestController : Controller
     {
-        public string GetString()
-        {
-            return "Hello world!";
-        }
-
         public ActionResult GetView()
         {
-            Employee emp = new Employee();
-            emp.FirstName = "Sukesh";
-            emp.LastName = "Marla";
-            emp.Salary = 20000;
+            var model = new EmployeeListViewModel();
+            var employees = Employees.Get();
+            var list = new List<EmployeeViewModel>();
+            foreach (var e in employees)
+            {
+                var employee = new EmployeeViewModel(e);
+                list.Add(employee);
+            }
 
-            ViewBag.Employee = emp;
-            return View("MyView");
+            model.Employees = list;
+            model.UserName = "Admin";
+            return View("MyView", model);
         }
     }
 }
