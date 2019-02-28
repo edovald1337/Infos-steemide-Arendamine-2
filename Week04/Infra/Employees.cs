@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Core;
+using Facade;
 
 namespace Infra
 {
@@ -16,6 +17,7 @@ namespace Infra
                 new Employee("Robert", "Pattinson", 20000)
             };
             return employees;
+
         }
     }
 }

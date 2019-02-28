@@ -6,9 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Core;
 using Facade;
 
-
-
-
 namespace WebApplication1.Controllers
 {
     public class TestController : Controller
