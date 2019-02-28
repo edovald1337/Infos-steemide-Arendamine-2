@@ -8,9 +8,9 @@ using Facade;
 
 namespace WebApplication1.Controllers
 {
-    public class TestController : Controller
+    public class EmployeeController : Controller
     {
-        public ActionResult GetView()
+        public ActionResult Index()
         {
             var model = new EmployeeListViewModel();
             var employees = Employees.Get();
@@ -22,8 +22,7 @@ namespace WebApplication1.Controllers
             }
 
             model.Employees = list;
-            model.UserName = "Admin";
-            return View("MyView", model);
+            return View("Index", model);
         }
     }
 }
